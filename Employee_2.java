@@ -42,18 +42,18 @@ public class Employee {
 				+ "]";
 	}
 
-	private static List<Employee> EMPLOYEE_List = new ArrayList<Employee>();
+	private static List<Employee> EMPLOYEE_LIST = new ArrayList<Employee>();
 
 	public static void main(String[] args) {
 
-		EMPLOYEE_List.add(new Employee(1, "Robert", 35, Designation.CEO));
-		EMPLOYEE_List.add(new Employee(2, "Martin", 35, Designation.MANAGER));
-		EMPLOYEE_List.add(new Employee(5, "Jack", 25, Designation.CTO));
-		EMPLOYEE_List.add(new Employee(3, "Akshay", 20, Designation.GENERAL_MANAGER));
-		EMPLOYEE_List.add(new Employee(8, "Arvind", 40, Designation.SOFTWARE_ENGINEER));
-		EMPLOYEE_List.add(new Employee(9, "Dinesh", 45, Designation.MANAGER));
+		EMPLOYEE_LIST.add(new Employee(1, "Robert", 35, Designation.CEO));
+		EMPLOYEE_LIST.add(new Employee(2, "Martin", 35, Designation.MANAGER));
+		EMPLOYEE_LIST.add(new Employee(5, "Jack", 25, Designation.CTO));
+		EMPLOYEE_LIST.add(new Employee(3, "Akshay", 20, Designation.GENERAL_MANAGER));
+		EMPLOYEE_LIST.add(new Employee(8, "Arvind", 40, Designation.SOFTWARE_ENGINEER));
+		EMPLOYEE_LIST.add(new Employee(9, "Dinesh", 45, Designation.MANAGER));
 
-		EMPLOYEE_List.stream()
+		EMPLOYEE_LIST.stream()
 				.filter(employee -> Designation.MANAGER.equals(employee.getDesignation()) && employee.getAge() > 30)
 				.collect(Collectors.toList()).forEach(System.out::println);
 	}
