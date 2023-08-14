@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 // You have given list of employees, find out who has most working experience in the organization
-public class Employee_11 {
+public class Employee {
 
 	private int id;
 	private String name;
@@ -16,7 +16,7 @@ public class Employee_11 {
 	private int yearOfJoining;
 	private double salary;
 
-	public Employee_11(int id, String name, int age, Gender gender, Department department, int yearOfJoining,
+	public Employee(int id, String name, int age, Gender gender, Department department, int yearOfJoining,
 			double salary) {
 		super();
 		this.id = id;
@@ -58,29 +58,29 @@ public class Employee_11 {
 
 	@Override
 	public String toString() {
-		return "Employee_11 [id=" + id + ", name=" + name + ", age=" + age + ", gender=" + gender + ", department="
+		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", gender=" + gender + ", department="
 				+ department + ", yearOfJoining=" + yearOfJoining + ", salary=" + salary + "]";
 	}
 
-	private static List<Employee_11> EMPLOYEE_List = new ArrayList<Employee_11>();
+	private static List<Employee> EMPLOYEE_List = new ArrayList<Employee>();
 
 	public static void main(String[] args) {
 
-		EMPLOYEE_List.add(new Employee_11(1, "Shiwani", 31, Gender.FEMALE, Department.IT, 2018, 80000));
-		EMPLOYEE_List.add(new Employee_11(2, "Mithun", 15, Gender.MALE, Department.FINANCE, 2000, 40000));
-		EMPLOYEE_List.add(new Employee_11(3, "Prasad", 18, Gender.MALE, Department.HR, 2006, 2000));
-		EMPLOYEE_List.add(new Employee_11(4, "Shwetangi", 20, Gender.FEMALE, Department.RND, 2010, 88000));
-		EMPLOYEE_List.add(new Employee_11(5, "Vijay", 16, Gender.MALE, Department.SALES, 2022, 3000));
-		EMPLOYEE_List.add(new Employee_11(6, "shaila", 45, Gender.FEMALE, Department.MARKETING, 2021, 90000));
-		EMPLOYEE_List.add(new Employee_11(7, "Dhirendra", 25, Gender.MALE, Department.SALES, 2015, 100000));
-		EMPLOYEE_List.add(new Employee_11(8, "Hanamanth", 59, Gender.MALE, Department.SALES, 2009, 5000));
-		EMPLOYEE_List.add(new Employee_11(9, "Om", 45, Gender.MALE, Department.MANUFACTURING, 2003, 13000));
-		EMPLOYEE_List.add(new Employee_11(10, "Liana", 23, Gender.FEMALE, Department.IT, 2023, 9000));
+		EMPLOYEE_List.add(new Employee(1, "Shiwani", 31, Gender.FEMALE, Department.IT, 2018, 80000));
+		EMPLOYEE_List.add(new Employee(2, "Mithun", 15, Gender.MALE, Department.FINANCE, 2000, 40000));
+		EMPLOYEE_List.add(new Employee(3, "Prasad", 18, Gender.MALE, Department.HR, 2006, 2000));
+		EMPLOYEE_List.add(new Employee(4, "Shwetangi", 20, Gender.FEMALE, Department.RND, 2010, 88000));
+		EMPLOYEE_List.add(new Employee(5, "Vijay", 16, Gender.MALE, Department.SALES, 2022, 3000));
+		EMPLOYEE_List.add(new Employee(6, "shaila", 45, Gender.FEMALE, Department.MARKETING, 2021, 90000));
+		EMPLOYEE_List.add(new Employee(7, "Dhirendra", 25, Gender.MALE, Department.SALES, 2015, 100000));
+		EMPLOYEE_List.add(new Employee(8, "Hanamanth", 59, Gender.MALE, Department.SALES, 2009, 5000));
+		EMPLOYEE_List.add(new Employee(9, "Om", 45, Gender.MALE, Department.MANUFACTURING, 2003, 13000));
+		EMPLOYEE_List.add(new Employee(10, "Liana", 23, Gender.FEMALE, Department.IT, 2023, 9000));
 
-		Optional<Employee_11> seniorMostEmployeeWrapper = EMPLOYEE_List.stream()
-				.sorted(Comparator.comparingInt(Employee_11::getYearOfJoining)).findFirst();
+		Optional<Employee> seniorMostEmployeeWrapper = EMPLOYEE_List.stream()
+				.sorted(Comparator.comparingInt(Employee::getYearOfJoining)).findFirst();
 
-		Employee_11 seniorMostEmployee = seniorMostEmployeeWrapper.get();
+		Employee seniorMostEmployee = seniorMostEmployeeWrapper.get();
 
 		System.out.println("ID - " + seniorMostEmployee.getId());
 		System.out.println("Name - " + seniorMostEmployee.getName());
