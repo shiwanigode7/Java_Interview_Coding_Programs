@@ -33,3 +33,6 @@ Java coding programs asked in the interviews
 
 12. **You have given list of employees, find out how many male and female employees are there in the IT team  ==>
 [Employee_12.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_12.java)**
+
+13. **You have given list of employees, find out the average salary of male and female employees  ==>
+[Employee_13.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_13.java)**
