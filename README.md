@@ -12,3 +12,6 @@ Java coding programs asked in the interviews
 
 5. **You have given list of employees, find out what is the average age of male and female employees ==>
 [Employee_5.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_5.java)**
+
+6. **You have given list of employees, find out the details of highest paid employee in the organization ==>
+[Employee_6.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_6.java)**
