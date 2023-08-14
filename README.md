@@ -39,3 +39,6 @@ Java coding programs asked in the interviews
 
 14. **You have given list of employees, list down thenames of all employees in each department  ==>
 [Employee_14.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_14.java)**
+
+15. **You have given list of employees, what is the average salary and total salary of the whole organization  ==>
+[Employee_15.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_15.java)**
