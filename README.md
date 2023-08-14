@@ -6,3 +6,5 @@ Java coding programs asked in the interviews
 2. **You have given list of employees, find out all the employees whose designation is “Manager” and age is above 30 ==> Employee_2.java**
 
 3. **You have given list of employees, find out how many male & female employees are there in the organization ==> Employee_3.java**
+
+4. **You have given list of employees, print the name of all departments in the organization ==> Employee_4.java**
