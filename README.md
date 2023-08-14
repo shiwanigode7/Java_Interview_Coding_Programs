@@ -9,3 +9,6 @@ Java coding programs asked in the interviews
 
 4. **You have given list of employees, print the name of all departments in the organization ==>
 [Employee_4.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_4.java)**
+
+5. **You have given list of employees, find out what is the average age of male and female employees ==>
+[Employee_5.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_5.java)**
