@@ -10,9 +10,9 @@ public class Employee {
 	private long empId;
 	private String name;
 	private int age;
-	private String designation;
+	private Designation designation;
 
-	public Employee(long empId, String name, int age, String designation) {
+	public Employee(long empId, String name, int age, Designation designation) {
 		super();
 		this.empId = empId;
 		this.name = name;
@@ -24,32 +24,16 @@ public class Employee {
 		return empId;
 	}
 
-	public void setEmpId(long empId) {
-		this.empId = empId;
-	}
-
 	public String getName() {
 		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
 	}
 
 	public int getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public String getDesignation() {
+	public Designation getDesignation() {
 		return designation;
-	}
-
-	public void setDesignation(String designation) {
-		this.designation = designation;
 	}
 
 	@Override
@@ -58,17 +42,23 @@ public class Employee {
 				+ "]";
 	}
 
-	public static void main(String[] args) {
-		List<Employee> empList = new ArrayList<Employee>();
-		empList.add(new Employee(1, "Robert", 35, "Manager"));
-		empList.add(new Employee(2, "Martin", 35, "General Manager"));
-		empList.add(new Employee(5, "Jack", 25, "Manager"));
-		empList.add(new Employee(3, "Akshay", 20, "Developer"));
-		empList.add(new Employee(8, "Arvind", 40, "Manager"));
-		empList.add(new Employee(9, "Dinesh", 45, "Manager"));
+	private static List<Employee> EMPLOYEE_List = new ArrayList<Employee>();
 
-		empList.stream()
-				.filter(employee -> "Manager".equalsIgnoreCase(employee.getDesignation()) && employee.getAge() > 30)
+	public static void main(String[] args) {
+
+		EMPLOYEE_List.add(new Employee(1, "Robert", 35, Designation.CEO));
+		EMPLOYEE_List.add(new Employee(2, "Martin", 35, Designation.MANAGER));
+		EMPLOYEE_List.add(new Employee(5, "Jack", 25, Designation.CTO));
+		EMPLOYEE_List.add(new Employee(3, "Akshay", 20, Designation.GENERAL_MANAGER));
+		EMPLOYEE_List.add(new Employee(8, "Arvind", 40, Designation.SOFTWARE_ENGINEER));
+		EMPLOYEE_List.add(new Employee(9, "Dinesh", 45, Designation.MANAGER));
+
+		EMPLOYEE_List.stream()
+				.filter(employee -> Designation.MANAGER.equals(employee.getDesignation()) && employee.getAge() > 30)
 				.collect(Collectors.toList()).forEach(System.out::println);
 	}
+}
+
+enum Designation {
+	COO, CEO, CTO, VISE_PRESIDENT, SOFTWARE_ENGINEER, MANAGER, GENERAL_MANAGER
 }
