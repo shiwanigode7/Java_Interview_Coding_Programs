@@ -21,3 +21,6 @@ Java coding programs asked in the interviews
 
 8. **You have given list of employees, count the number of employees in each department ==>
 [Employee_8.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_8.java)**
+
+9. **You have given list of employees, find out the average salary of each department ==>
+[Employee_9.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_9.java)**
