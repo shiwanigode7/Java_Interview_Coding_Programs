@@ -7,4 +7,5 @@ Java coding programs asked in the interviews
 
 3. **You have given list of employees, find out how many male & female employees are there in the organization ==> [Employee_3.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_3.java)**
 
-4. **You have given list of employees, print the name of all departments in the organization ==> [Employee_4.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_4.java)https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_4.java**
+4. **You have given list of employees, print the name of all departments in the organization ==>
+[Employee_4.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_4.java)**
