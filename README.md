@@ -18,3 +18,6 @@ Java coding programs asked in the interviews
 
 7. **You have given list of employees, find out the names of all employee who have joined after 2015 ==>
 [Employee_7.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_7.java)**
+
+8. **You have given list of employees, count the number of employees in each department ==>
+[Employee_8.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_8.java)**
