@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 //You have given list of employees, find out all the employees whose designation is “Manager” and age is above 30.
-public class Employee_Filter_2 {
+public class Employee {
 
 	private long empId;
 	private String name;
 	private int age;
 	private String designation;
 
-	public Employee_Filter_2(long empId, String name, int age, String designation) {
+	public Employee(long empId, String name, int age, String designation) {
 		super();
 		this.empId = empId;
 		this.name = name;
@@ -54,18 +54,18 @@ public class Employee_Filter_2 {
 
 	@Override
 	public String toString() {
-		return "Employee_Filter_2 [empId=" + empId + ", name=" + name + ", age=" + age + ", designation=" + designation
+		return "Employee [empId=" + empId + ", name=" + name + ", age=" + age + ", designation=" + designation
 				+ "]";
 	}
 
 	public static void main(String[] args) {
-		List<Employee_Filter_2> empList = new ArrayList<Employee_Filter_2>();
-		empList.add(new Employee_Filter_2(1, "Robert", 35, "Manager"));
-		empList.add(new Employee_Filter_2(2, "Martin", 35, "General Manager"));
-		empList.add(new Employee_Filter_2(5, "Jack", 25, "Manager"));
-		empList.add(new Employee_Filter_2(3, "Akshay", 20, "Developer"));
-		empList.add(new Employee_Filter_2(8, "Arvind", 40, "Manager"));
-		empList.add(new Employee_Filter_2(9, "Dinesh", 45, "Manager"));
+		List<Employee> empList = new ArrayList<Employee>();
+		empList.add(new Employee(1, "Robert", 35, "Manager"));
+		empList.add(new Employee(2, "Martin", 35, "General Manager"));
+		empList.add(new Employee(5, "Jack", 25, "Manager"));
+		empList.add(new Employee(3, "Akshay", 20, "Developer"));
+		empList.add(new Employee(8, "Arvind", 40, "Manager"));
+		empList.add(new Employee(9, "Dinesh", 45, "Manager"));
 
 		empList.stream()
 				.filter(employee -> "Manager".equalsIgnoreCase(employee.getDesignation()) && employee.getAge() > 30)
