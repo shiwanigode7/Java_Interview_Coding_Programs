@@ -57,3 +57,6 @@ Java coding programs asked in the interviews
 
 20. **You have given list of strings, remove the duplicate string from the list   ==>
 [StringDuplicatesRemover.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/StringDuplicatesRemover.java)**
+
+21. **Given a dob in dd-mm-yyyy format, calculate the age    ==>
+[AgeCalculator.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/AgeCalculator.java)**
