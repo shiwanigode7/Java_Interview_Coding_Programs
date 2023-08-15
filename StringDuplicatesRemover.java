@@ -9,10 +9,14 @@ public class StringDuplicatesRemover {
 
 	public static void main(String[] args) {
 		Stream<String> stringList = removeDuplicates();
-		stringList.forEach(System.out::println);
+		displayList(stringList);
 	}
 
 	private static Stream<String> removeDuplicates() {
 		return Arrays.stream(STRING_ARRAY).distinct();
+	}
+
+	private static void displayList(Stream<String> stringList) {
+		stringList.forEach(System.out::println);
 	}
 }
