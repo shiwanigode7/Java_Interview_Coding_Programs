@@ -54,3 +54,6 @@ Java coding programs asked in the interviews
 
 19. **You have given list of employees, sort the employees by name and salary in descending order  ==>
 [Employee_19.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_19.java)**
+
+20. **You have given list of strings, remove the duplicate string from the list   ==>
+[StringDuplicatesRemover.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/StringDuplicatesRemover.java)**
