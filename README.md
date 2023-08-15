@@ -42,3 +42,9 @@ Java coding programs asked in the interviews
 
 15. **You have given list of employees, what is the average salary and total salary of the whole organization  ==>
 [Employee_15.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_15.java)**
+
+16. **You have given list of employees, separate the employees who are younger or equal to 25 years from those employees who are older than 25 years  ==>
+[Employee_16.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_16.java)**
+
+17. **You have given list of employees, find out who is oldest employee in the organization? what is his/her age? and which department he belongs to?  ==>
+[Employee_17.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_17.java)**
