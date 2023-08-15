@@ -48,3 +48,9 @@ Java coding programs asked in the interviews
 
 17. **You have given list of employees, find out who is oldest employee in the organization? what is his/her age? and which department he belongs to?  ==>
 [Employee_17.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_17.java)**
+
+18. **You have given list of employees, sort the employees by name and salary in ascending order  ==>
+[Employee_18.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_18.java)**
+
+19. **You have given list of employees, sort the employees by name and salary in descending order  ==>
+[Employee_19.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_19.java)**
