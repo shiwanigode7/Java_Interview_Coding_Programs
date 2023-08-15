@@ -55,8 +55,11 @@ Java coding programs asked in the interviews
 19. **You have given list of employees, sort the employees by name and salary in descending order  ==>
 [Employee_19.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/Employee_19.java)**
 
-20. **You have given list of strings, remove the duplicate string from the list   ==>
+20. **You have given list of strings, remove the duplicate string from the list  ==>
 [StringDuplicatesRemover.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/StringDuplicatesRemover.java)**
 
-21. **Given a dob in dd-mm-yyyy format, calculate the age    ==>
+21. **Given a dob in dd-mm-yyyy format, calculate the age  ==>
 [AgeCalculator.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/AgeCalculator.java)**
+
+22. **Given a list of integers, find out all the even numbers that exist in the list using stream functions  ==>
+[EvenNumberFinder.java](https://github.com/shiwanigode7/Java_Interview_Coding_Programs/blob/main/EvenNumberFinder.java)**
